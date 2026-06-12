@@ -1,0 +1,22 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics",
+      "description": "Gadgets and devices",
+      "is_active": true
+    },
+    {
+      "id": 2,
+      "name": "Books",
+      "description": "Physical and digital books",
+      "is_active": true
+    },
+    {
+      "id": 3,
+      "name": "Home & Garden",
+      "description": "Furniture and tools",
+      "is_active": false
+    }
+  ]
+}
