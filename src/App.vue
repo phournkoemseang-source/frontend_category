@@ -53,7 +53,6 @@
           <tbody>
             <tr v-for="category in categories" :key="category.id">
               <td>
-                <span class="category-id">#{{ category.id }}</span>
                 <strong>{{ category.name }}</strong>
               </td>
               <td>
@@ -535,14 +534,6 @@ onBeforeUnmount(() => {
 .category-table td:last-child {
   border-right: 1px solid #eef2f7;
   border-radius: 0 18px 18px 0;
-}
-
-.category-id {
-  display: block;
-  margin-bottom: 4px;
-  color: #94a3b8;
-  font-size: 12px;
-  font-weight: 700;
 }
 
 .category-table td strong {
